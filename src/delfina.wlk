@@ -5,7 +5,9 @@ object delfina {
 	var nivelDiversion = 0
 	var consolaActual = play
 	
-	method diversion() = nivelDiversion
+	method diversion() {
+		return nivelDiversion
+	}
 	method agarrar(consola) {
 		consolaActual = consola 
 	}
